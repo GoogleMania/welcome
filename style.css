@@ -1,68 +1,127 @@
 
 
-body{
-    background-color: black;
-
-}
-
-.box{
-    
-    
-    padding: 30px;
-    height: 60px;
-    margin: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
-    color:black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 30vh;
-
-}
-
-.h1{
-    color:white;
-    
-    text-align: center;
-    text-decoration: dotted;
-    font-style: italic;
-    letter-spacing: 2px;
-}
-
-.box-head{
-   
-    color:gr;
-    background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 500px;
-    margin: 10px;
-    text-align: center;
-    padding: 10px;
-}
-
-.box-para{
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    border: 10px;
-}
-
-.right{
-   padding-bottom: 55px;
-    font-size: 20px;
+.first{
     display: flex;
-    float: right;
-    width: 50vh;
-    color:rgb(235, 238, 144);
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+
 }
 
-.left{
-   width: 50vh;
-   float: left;
+.nav-left{
+    padding: 30px;
+    padding-left: 10px;
+    
 }
-.page{
+
+.A{
+margin: 10px;
+color: black;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+}
+
+.A:hover{
+
+    color: chartreuse;
+}
+
+.IMG{
+height: 50px;
+padding: 10px;
+
+}
+
+.second{
+    display: flex;
+  
+}
+    
+.IMG2{
+    padding: 80px;
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+
+}
+
+.IMG2:hover{
+    transform: scaleX(-1);
+}
+
+.IMG3{
+    padding: 80px;
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.IMG3:hover{
+    transform: scaleX(-1);
+}
+
+.second{
+    width: 50vh;
+    height:50vh;
+    justify-content: space-between;
+
+}
+
+.Buy1{
+
+    padding: 10px;
+    background-color: yellowgreen;
     color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 30px;
+    transform: box 1px;
+    margin-left: 300px;
+    margin-bottom: 950px;
+}
+
+.Buy1:hover{
+    background-color: green;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 9px #999;
+}
+
+.end{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+
+}
+
+.last{
+
+    margin: 25px;
+    padding: 10px;
+    border: 10px soild black;
+    border-radius: 15px;
+
+}
+
+.last:hover{
+border: 10px soild black;
+   
+}
+
+
+
+.para{
+
+    font-style: italic;
+    font-weight: bold;
+    color:greenyellow;
+
+}
+
+.para:hover{
+
+    color:darkseagreen;
 }
 
